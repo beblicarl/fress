@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 function App() {
   return (
     <div className="grid-container">
-      <header className="row " id="myTopnav">
-        <div>
+      <header className="row ">
+        {/* <div>
           <a className="brand" href="index.html">
             fress
           </a>
@@ -15,10 +16,29 @@ function App() {
           <a className="black" href="#">
             Login
           </a>
-          <a href="javascript:void(0);" className="icon" onclick="myFunction()">
-            <i className="fa fa-bars" />
+        </nav> */}
+        <header className="header">
+          <a href className="logo">
+            fress
           </a>
-        </nav>
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon" />
+          </label>
+          <ul className="menu">
+            <li>
+              <a href="#work">Become a Cook</a>
+            </li>
+            <li>
+              <a href="#about">Join as Foodie</a>
+            </li>
+            <li>
+              <a className="black" href="#careers">
+                Login
+              </a>
+            </li>
+          </ul>
+        </header>
       </header>
       <section>
         <div className="madam">
@@ -31,7 +51,9 @@ function App() {
               I was born in Puglia, in the south of Italy,and grew up in a{" "}
               <br /> small village surrounded by old olive groves and vines. My{" "}
               <br /> mother and i used to spend a lot of time in the kitchen...{" "}
-              <a href="#">more</a>
+              <a className="blue" href="#">
+                more
+              </a>
             </p>
             <div className="following">
               <p>Following 27</p>
