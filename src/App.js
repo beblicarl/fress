@@ -78,169 +78,316 @@ function App() {
         </form>
       </section>
       <main>
-        <div className="name">My kitchen</div>
         <div>
-          <div className="row center">
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="medium"
-                  src="./images/Vector (1).png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
+          <div className="name">My kitchen</div>
+          <div>
+            <div className="row center">
+              <div className="card banner">
+                <a href="product.html">
+                  {/* image size: 680px by 830px */}
+                  <img
+                    className="medium"
+                    src="./images/Vector (1).png"
+                    alt="product"
+                  />
+                </a>
+                <div className="card-body">
+                  <div className="rating">
+                    <span>
+                      {" "}
+                      <i className="far fa-heart" />{" "}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="card banner">
+                <a href="product.html">
+                  {/* image size: 680px by 830px */}
+                  <img
+                    className="medium"
+                    src="./images/Vector (2).png"
+                    alt="product"
+                  />
+                </a>
+                <div className="card-body">
+                  <div className="rating">
+                    <span>
+                      {" "}
+                      <i className="far fa-heart" />{" "}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="card banner">
+                <a href="product.html">
+                  {/* image size: 680px by 830px */}
+                  <img
+                    className="medium"
+                    src="./images/Vector (3).png"
+                    alt="product"
+                  />
+                </a>
+                <div className="card-body">
+                  <div className="rating">
+                    <span>
+                      {" "}
+                      <i className="far fa-heart" />{" "}
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="medium"
-                  src="./images/Vector (2).png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
+            <div className="name">My food</div>
+            <div className="row center">
+              <div className="card banner happy">
+                <div className="profile-pic">
+                  <a href="product.html">
+                    <img
+                      className="large"
+                      src="./images/Vector (4).png"
+                      alt="product"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <div className="rating">
+                      <span>
+                        {" "}
+                        <i className="far fa-heart" />{" "}
+                      </span>
+                    </div>
+                    <div className="inner-caption">
+                      <p>
+                        Spicy Moroccan <br />
+                        shakshuka
+                      </p>
+                    </div>
+                    <div className="edit">
+                      <div className="caption">
+                        <h5>Spicy Moroccan shakshuka</h5>
+                      </div>
+                      <div className="small-caption">
+                        <h5>$5 a portion</h5>
+                        <h5>No allergens</h5>
+                        <h5>Likes 1.2k</h5>
+                      </div>
+                      <a className="facebook" href="#">
+                        <img src="./images/Vector(10).png" alt="icon" />
+                      </a>
+                      <a className="plus" href="#">
+                        <img src="./images/Vector(11).png" alt="icon" />
+                      </a>
+                      <a className="message" href="#">
+                        <img src="./images/Vector(14).png" alt="icon" />
+                      </a>
+                      <a className="eye" href="#">
+                        <img src="./images/Vector(13).png" alt="icon" />
+                      </a>
+                      <a href="#">
+                        <button className="order">order</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="medium"
-                  src="./images/Vector (3).png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
+              <div className="card banner happy">
+                <div className="profile-pic">
+                  <a href="product.html">
+                    <img
+                      className="large"
+                      src="./images/Vector.png"
+                      alt="product"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <div className="rating">
+                      <span>
+                        {" "}
+                        <i className="far fa-heart" />{" "}
+                      </span>
+                    </div>
+                    <div className="inner-caption">
+                      <p>
+                        Peasant's bean &amp; <br />
+                        been stew
+                      </p>
+                    </div>
+                    <div className="edit">
+                      <div className="caption">
+                        <h5>Peasant's bean &amp; been stew</h5>
+                      </div>
+                      <div className="small-caption">
+                        <h5>$5 a portion</h5>
+                        <h5>No allergens</h5>
+                        <h5>Likes 1.2k</h5>
+                      </div>
+                      <a className="facebook" href="#">
+                        <img src="./images/Vector(10).png" alt="icon" />
+                      </a>
+                      <a className="plus" href="#">
+                        <img src="./images/Vector(11).png" alt="icon" />
+                      </a>
+                      <a className="message" href="#">
+                        <img src="./images/Vector(14).png" alt="icon" />
+                      </a>
+                      <a className="eye" href="#">
+                        <img src="./images/Vector(13).png" alt="icon" />
+                      </a>
+                      <a href="#">
+                        <button className="order">order</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="name"> My food</div>
-          <div className="row center">
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="large"
-                  src="./images/Vector (4).png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
+              <div className="card banner happy">
+                <div className="profile-pic">
+                  <a href="product.html">
+                    <img
+                      className="large"
+                      src="./images/Vector (5).png"
+                      alt="product"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <div className="rating">
+                      <span>
+                        {" "}
+                        <i className="far fa-heart" />{" "}
+                      </span>
+                    </div>
+                    <div className="inner-caption">
+                      <p>
+                        Hearty beef <br />
+                        bourguignon
+                      </p>
+                    </div>
+                    <div className="edit">
+                      <div className="caption">
+                        <h5>Hearty beef bourguignon</h5>
+                      </div>
+                      <div className="small-caption">
+                        <h5>$5 a portion</h5>
+                        <h5>No allergens</h5>
+                        <h5>Likes 1.2k</h5>
+                      </div>
+                      <a className="facebook" href="#">
+                        <img src="./images/Vector(10).png" alt="icon" />
+                      </a>
+                      <a className="plus" href="#">
+                        <img src="./images/Vector(11).png" alt="icon" />
+                      </a>
+                      <a className="message" href="#">
+                        <img src="./images/Vector(14).png" alt="icon" />
+                      </a>
+                      <a className="eye" href="#">
+                        <img src="./images/Vector(13).png" alt="icon" />
+                      </a>
+                      <a href="#">
+                        <button className="order">order</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <p>
-                  Spicy Morrocan <br /> shakshuka
-                </p>
               </div>
-            </div>
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="large"
-                  src="./images/Vector.png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
+              <div className="card banner happy">
+                <div className="profile-pic">
+                  <a href="product.html">
+                    <img
+                      className="large"
+                      src="./images/Vector (6).png"
+                      alt="product"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <div className="rating">
+                      <span>
+                        {" "}
+                        <i className="far fa-heart" />{" "}
+                      </span>
+                    </div>
+                    <div className="inner-caption">
+                      <p>
+                        Royal lamb safron <br />
+                        rice pilau
+                      </p>
+                    </div>
+                    <div className="edit">
+                      <div className="caption">
+                        <h5>Royal lamb safron rice pilau</h5>
+                      </div>
+                      <div className="small-caption">
+                        <h5>$5 a portion</h5>
+                        <h5>No allergens</h5>
+                        <h5>Likes 1.2k</h5>
+                      </div>
+                      <a className="facebook" href="#">
+                        <img src="./images/Vector(10).png" alt="icon" />
+                      </a>
+                      <a className="plus" href="#">
+                        <img src="./images/Vector(11).png" alt="icon" />
+                      </a>
+                      <a className="message" href="#">
+                        <img src="./images/Vector(14).png" alt="icon" />
+                      </a>
+                      <a className="eye" href="#">
+                        <img src="./images/Vector(13).png" alt="icon" />
+                      </a>
+                      <a href="#">
+                        <button className="order">order</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <p>
-                  Peasant's Bean &amp; <br /> been stew
-                </p>
               </div>
-            </div>
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="large"
-                  src="./images/Vector (5).png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
+              <div className="card banner happy">
+                <div className="profile-pic">
+                  <a href="product.html">
+                    <img
+                      className="large"
+                      src="./images/Vector (7).png"
+                      alt="product"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <div className="rating">
+                      <span>
+                        {" "}
+                        <i className="far fa-heart" />{" "}
+                      </span>
+                    </div>
+                    <div className="inner-caption">
+                      <p>
+                        Spicy Spanish <br />
+                        patatas bravas
+                      </p>
+                    </div>
+                    <div className="edit">
+                      <div className="caption">
+                        <h5>Spicy Spanish patatas bravas</h5>
+                      </div>
+                      <div className="small-caption">
+                        <h5>$5 a portion</h5>
+                        <h5>No allergens</h5>
+                        <h5>Likes 1.2k</h5>
+                      </div>
+                      <a className="facebook" href="#">
+                        <img src="./images/Vector(10).png" alt="icon" />
+                      </a>
+                      <a className="plus" href="#">
+                        <img src="./images/Vector(11).png" alt="icon" />
+                      </a>
+                      <a className="message" href="#">
+                        <img src="./images/Vector(14).png" alt="icon" />
+                      </a>
+                      <a className="eye" href="#">
+                        <img src="./images/Vector(13).png" alt="icon" />
+                      </a>
+                      <a href="#">
+                        <button className="order">order</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <p>
-                  Hearty beef <br /> bourguignon
-                </p>
-              </div>
-            </div>
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="large"
-                  src="./images/Vector (6).png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
-                </div>
-                <p>
-                  Royal lamb safron <br /> rice pilau
-                </p>
-              </div>
-            </div>
-            <div className="card banner">
-              <a href="product.html">
-                {/* image size: 680px by 830px */}
-                <img
-                  className="large"
-                  src="./images/Vector (7).png"
-                  alt="product"
-                />
-              </a>
-              <div className="card-body">
-                <div className="rating">
-                  <span>
-                    {" "}
-                    <i className="far fa-heart" />{" "}
-                  </span>
-                </div>
-                <p>
-                  Spicy Spanish <br /> patatas bravas
-                </p>
               </div>
             </div>
           </div>
