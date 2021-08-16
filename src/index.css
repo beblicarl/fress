@@ -54,22 +54,6 @@ a {
 a:hover {
   color: #ff8000;
 }
-/* Header */
-/* header a {
-  color: #f40101;
-  padding: 3rem;
-  font-size: 2rem;
-}
-.row .icon {
-  display: none;
-}
-
-a.brand {
-  color: #f40101;
-  font-size: 4rem;
-  font-weight: bold;
-  margin-left: 2rem;
-}*/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +64,6 @@ a.brand {
   justify-content: space-evenly;
 }
 
-*/
 /* Image */
 img {
   border-radius: 0.5rem;
@@ -106,12 +89,7 @@ img {
   border-radius: 0.5rem;
   margin: 0 1rem;
 }
-/* .card-body {
-    padding: 1rem;
-  } */
-/* .card-body > * {
-    margin-bottom: 0.5rem;
-  } */
+
 .price {
   font-size: 2rem;
 }
@@ -214,19 +192,6 @@ button {
   font-size: 1.5rem;
   color: #f40101;
 }
-
-/* input[type="Email"]{
-  width: 33%;
-  padding: 15px;
-  background-color: transparent;
-  color: white;
-  font-size: 16px;
-  font-family: 'Alegreya', serif;
-  margin-left: 8%;
-  border: 1px silver solid;
-  border-radius: 5rem;
-  margin-top: 1%;
-} */
 
 form {
   padding: 20px;

@@ -5,18 +5,6 @@ function App() {
   return (
     <div className="grid-container">
       <header className="row ">
-        {/* <div>
-          <a className="brand" href="index.html">
-            fress
-          </a>
-        </div>
-        <nav className="goal">
-          <a href="cart.html">Become a Cook</a>
-          <a href="signin.html">Join as Foodie</a>
-          <a className="black" href="#">
-            Login
-          </a>
-        </nav> */}
         <header className="header">
           <a href className="logo">
             fress
@@ -84,7 +72,6 @@ function App() {
             <div className="row center">
               <div className="card banner">
                 <a href="product.html">
-                  {/* image size: 680px by 830px */}
                   <img
                     className="medium"
                     src="./images/Vector (1).png"
@@ -120,7 +107,6 @@ function App() {
               </div>
               <div className="card banner">
                 <a href="product.html">
-                  {/* image size: 680px by 830px */}
                   <img
                     className="medium"
                     src="./images/Vector (3).png"
