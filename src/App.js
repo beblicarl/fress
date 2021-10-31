@@ -15,13 +15,13 @@ function App() {
           </label>
           <ul className="menu">
             <li>
-              <a href="#work">Become a Cook</a>
+              <a href="/work">Become a Cook</a>
             </li>
             <li>
-              <a href="#about">Join as Foodie</a>
+              <a href="/about">Join as Foodie</a>
             </li>
             <li>
-              <a className="black" href="#careers">
+              <a className="black" href="/careers">
                 Login
               </a>
             </li>
@@ -39,7 +39,7 @@ function App() {
               I was born in Puglia, in the south of Italy,and grew up in a{" "}
               <br /> small village surrounded by old olive groves and vines. My{" "}
               <br /> mother and i used to spend a lot of time in the kitchen...{" "}
-              <a className="blue" href="#">
+              <a className="blue" href="/">
                 more
               </a>
             </p>
@@ -156,19 +156,19 @@ function App() {
                         <h5>No allergens</h5>
                         <h5>Likes 1.2k</h5>
                       </div>
-                      <a className="facebook" href="#">
+                      <a className="facebook" href="/">
                         <img src="./images/Vector(10).png" alt="icon" />
                       </a>
-                      <a className="plus" href="#">
+                      <a className="plus" href="/">
                         <img src="./images/Vector(11).png" alt="icon" />
                       </a>
-                      <a className="message" href="#">
+                      <a className="message" href="/">
                         <img src="./images/Vector(14).png" alt="icon" />
                       </a>
-                      <a className="eye" href="#">
+                      <a className="eye" href="/">
                         <img src="./images/Vector(13).png" alt="icon" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <button className="order">order</button>
                       </a>
                     </div>
@@ -206,19 +206,19 @@ function App() {
                         <h5>No allergens</h5>
                         <h5>Likes 1.2k</h5>
                       </div>
-                      <a className="facebook" href="#">
+                      <a className="facebook" href="/">
                         <img src="./images/Vector(10).png" alt="icon" />
                       </a>
-                      <a className="plus" href="#">
+                      <a className="plus" href="/">
                         <img src="./images/Vector(11).png" alt="icon" />
                       </a>
-                      <a className="message" href="#">
+                      <a className="message" href="/">
                         <img src="./images/Vector(14).png" alt="icon" />
                       </a>
-                      <a className="eye" href="#">
+                      <a className="eye" href="/">
                         <img src="./images/Vector(13).png" alt="icon" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <button className="order">order</button>
                       </a>
                     </div>
@@ -256,19 +256,19 @@ function App() {
                         <h5>No allergens</h5>
                         <h5>Likes 1.2k</h5>
                       </div>
-                      <a className="facebook" href="#">
+                      <a className="facebook" href="/">
                         <img src="./images/Vector(10).png" alt="icon" />
                       </a>
-                      <a className="plus" href="#">
+                      <a className="plus" href="/">
                         <img src="./images/Vector(11).png" alt="icon" />
                       </a>
-                      <a className="message" href="#">
+                      <a className="message" href="/">
                         <img src="./images/Vector(14).png" alt="icon" />
                       </a>
-                      <a className="eye" href="#">
+                      <a className="eye" href="/">
                         <img src="./images/Vector(13).png" alt="icon" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <button className="order">order</button>
                       </a>
                     </div>
@@ -306,19 +306,19 @@ function App() {
                         <h5>No allergens</h5>
                         <h5>Likes 1.2k</h5>
                       </div>
-                      <a className="facebook" href="#">
+                      <a className="facebook" href="/">
                         <img src="./images/Vector(10).png" alt="icon" />
                       </a>
-                      <a className="plus" href="#">
+                      <a className="plus" href="/">
                         <img src="./images/Vector(11).png" alt="icon" />
                       </a>
-                      <a className="message" href="#">
+                      <a className="message" href="/">
                         <img src="./images/Vector(14).png" alt="icon" />
                       </a>
-                      <a className="eye" href="#">
+                      <a className="eye" href="/">
                         <img src="./images/Vector(13).png" alt="icon" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <button className="order">order</button>
                       </a>
                     </div>
@@ -356,19 +356,19 @@ function App() {
                         <h5>No allergens</h5>
                         <h5>Likes 1.2k</h5>
                       </div>
-                      <a className="facebook" href="#">
+                      <a className="facebook" href="/">
                         <img src="./images/Vector(10).png" alt="icon" />
                       </a>
-                      <a className="plus" href="#">
+                      <a className="plus" href="/">
                         <img src="./images/Vector(11).png" alt="icon" />
                       </a>
-                      <a className="message" href="#">
+                      <a className="message" href="/">
                         <img src="./images/Vector(14).png" alt="icon" />
                       </a>
-                      <a className="eye" href="#">
+                      <a className="eye" href="/">
                         <img src="./images/Vector(13).png" alt="icon" />
                       </a>
-                      <a href="#">
+                      <a href="/">
                         <button className="order">order</button>
                       </a>
                     </div>
