@@ -1,10 +1,17 @@
+
+## Purpose
+This is a landing page showcasing available food. The purpose of this app was to test my React skills. I used CSS and ReactJS for this project.
+
+
+## Hosting
+This site is hosted on https://carl-fress-assignment.netlify.app/ .
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-## Purpose
-This is a landing page showcasing available food. The purpose of this app was to test my React skills
  
 ## Available Scripts
 
